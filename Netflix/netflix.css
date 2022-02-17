@@ -1,0 +1,310 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body header nav{
+    display: grid;
+    grid-template-columns: 5% 70% 25%;
+    background-image: url("https://i.blogs.es/828d36/mab_keepers_cs5_0504_1269-copy/450_1000.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+body header nav .logo{
+    width: 4vw;
+}
+body header nav .logo img{
+    width: 70%;
+    margin-top: 1.5vh;
+    margin-left: 2vw;
+}
+body header nav .nav-center{
+    display: flex;
+    flex-direction: row;
+}
+body header nav .nav-center:hover{
+    color: red;
+    cursor: pointer;
+}
+body header nav .nav-center p{
+    margin: 3%;
+    font-size: 2vw;
+}
+body header nav .nav-right{
+    display: flex;
+    flex-direction: row;
+    margin: 4%;
+    width: 40vw;
+}
+body header nav .nav-right span img{
+    width: 1.5vw;
+    margin: 4%;
+    margin-top: 1.8vh;
+}
+body header nav .nav-right .niños{
+    font-size: 2vw;
+    margin: 4%;
+}
+body header nav .nav-right .notificaciones{
+    width: 1vw;
+    margin: 4%;
+    margin-top: 1vh;
+}
+body header nav .nav-right .notificaciones img{
+    width: 2.8vw;
+    margin: 8%;
+}
+body header nav .nav-right .perfil img{
+    width: 2.4vw;
+    margin: 100%;
+    margin-top: 1.3vh;
+}
+body main{
+    background-color: rgb(34, 34, 34);
+}
+body main .main-first-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 3vh;
+}
+body main .populares{
+    color: white;
+    width: 30vw;
+    height: 1vh;
+}
+body main .main-first-section .one-img{
+    width: 10vw;
+}
+body main .main-first-section .two-img{
+    width: 10vw;
+}
+body main .main-first-section .three-img{
+    width: 10vw;
+}
+body main .main-first-section .four-img{
+    width: 10vw;
+}
+body main .main-first-section .five-img{
+    width: 10vw;
+}
+body main .main-first-section .one-img img{
+    width: 18vw;
+}
+body main .main-first-section .two-img img{
+    width: 18vw;
+}
+body main .main-first-section .three-img img{
+    width: 18vw;
+}
+body main .main-first-section .four-img img{
+    width: 18vw;
+}
+body main .main-first-section .five-img img{
+    width: 18vw;
+}
+body main .continuar{
+    color: white;
+    width: 50vw;
+    height: 1vh;
+}
+body main .main-two-section{
+    margin-top: 3vh;
+}
+body main .main-two-section .six-img{
+    margin: 1vw;
+}
+body main .main-two-section .seven-img{
+    margin: 0.6vw;
+}
+body main .main-two-section .eight-img{
+    margin: 0.6vw;
+}
+body main .main-two-section .nine-img{
+    margin: 0.6vw;
+}
+body main .main-two-section .ten-img{
+    margin: 0.6vw;
+}
+body main .main-two-section .six-img img{
+    width: 18vw;
+}
+body main .main-two-section .seven-img img{
+    width: 18vw;
+}
+body main .main-two-section .eight-img img{
+    width: 17vw
+}
+body main .main-two-section .nine-img img{
+    width: 18vw;
+}
+body main .main-two-section .ten-img img{
+    width: 17vw;
+}
+body main .main-three-section{
+    margin-top: 3vw;
+}
+body main .tendencias{
+    color: white;
+    width: 50vw;
+    height: 1vh;
+}
+body main .main-three-section .eleven-img{
+    margin: 0.6vw;
+}
+body main .main-three-section .twelve-img{
+    margin: 0.6vw;
+}
+body main .main-three-section .thirteen-img{
+    margin: 0.6vw;
+}
+body main .main-three-section .fourteen-img{
+    margin: 0.6vw;
+}
+body main .main-three-section .fifteen-img{
+    margin: 0.6vw;
+}
+body main .main-three-section .eleven-img img{
+    width: 17vw;
+}
+body main .main-three-section .twelve-img img{
+    width: 17vw;
+}
+body main .main-three-section .thirteen-img img{
+    width: 20vw;
+}
+body main .main-three-section .fourteen-img img{
+    width: 18vw;
+}
+body main .main-three-section .fifteen-img img{
+    width: 18vw;
+}
+@media screen and (min-width: 650px) and (max-width: 991px) {
+    body header nav{
+        height: 100vh;
+    }
+    body header nav .logo img{
+        width: 60%;
+        margin-top: 2.7vh;
+        margin-left: 2vw;
+    }
+    body header nav .nav-right span img{
+        width: 1.3vw;
+        margin: 5%;
+        margin-top: 2.5vh;
+    }
+    body header nav .nav-right .notificaciones img{
+        width: 2.4vw;
+        margin: 8%;
+        margin-top: 1vh;
+    }    
+    body header nav .nav-right .perfil img{
+        width: 2vw;
+        margin: 100%;
+        margin-top: 2.2vh;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    body header nav{
+        height: 100vh;
+    }
+    body header nav .logo img{
+        width: 60%;
+        margin-top: 3.3vh;
+        margin-left: 2vw;
+    }
+    body header nav .nav-right span img{
+        width: 1.6vw;
+        margin: 5%;
+        margin-top: 3.1vh;
+    }
+    body header nav .nav-right .notificaciones img{
+        width: 2.1vw;
+        margin: 8%;
+        margin-top: 1.6vh;
+    }    
+    body header nav .nav-right .perfil img{
+        width: 1.8vw;
+        margin: 100%;
+        margin-top: 2.8vh;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    body header nav .nav-right{
+        width: 20vw;
+    }
+    body header nav{
+        width: 100%;
+        height: 150vh;
+    }
+    body header nav .logo img{
+        width: 45%;
+        margin-top: 4.6vh;
+        margin-left: 2vw;
+    }
+    body header nav .nav-right span img{
+        width: 1.4vw;
+        margin: 8%;
+        margin-top: 2.8vh;
+    }
+    body header nav .nav-right .notificaciones img{
+        width: 2vw;
+        margin: 8%;
+        margin-top: 0.8vh;
+    }    
+    body header nav .nav-right .perfil img{
+        width: 1.7vw;
+        margin: 100%;
+        margin-top: 2vh;
+    }
+    body main .populares{
+        height: 5vh;
+        font-size: 2vw;
+    }
+    body main .continuar{
+        height: 5vh;
+        font-size: 2vw;
+    }
+    body main .tendencias{
+        height: 1vh;
+        font-size: 2vw;
+    }
+}
